@@ -18,4 +18,13 @@ git remote add origin git@github.com:GITHUB账号ID/learngit.git    关联账号
 git push -u origin master  将本地库推送到远程库上（其中会出现问题 需要跟随提示输入yes然后enter）
 $ git push origin master  本地分支的最新修改推送至github
 $ git clone git@github.com:michaelliao/gitskills.git 克隆远程库的资料到本地库
+$ git checkout -b dev 创建并且切换到dev分支，相当于git branch dev和git checkout dev的效果
+$ git branch 命令会列出所有分支，再当前分之前标一个*号
+$ git merge dev 用于合并指定分支到当前分支
+git branch 查看分支
+git branch name 创建分支
+git checkout name 切换分支
+git checkout -b name 创建+切换分支
+git merge name 合并某分支到当前分支
+git branch -d name 删除分支
 
